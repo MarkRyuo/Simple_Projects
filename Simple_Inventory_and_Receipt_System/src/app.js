@@ -12,10 +12,18 @@ import listOfProduct from "../data.js";
 // total, tax, discount
 
 // sa discount mag base tayo sa age;
+
+const inputAge = () => {
+    const customerAge = document.getElementById("customerAge");
+    const ageValue = Number(customerAge.value) ;
+
+    return ageValue ;
+}
+
+
 // discount for age of <18 = 2%, age >== 18 to 35 = 5%, age < 35 to 59 = 7%, age > 59 to up = 10%
 const baseAge = (discount) => {
-    const customerAge = document.getElementById("customerAge");
-    const age = Number(customerAge.value) ;
+    const age = inputAge()
 
     if(age < 18){
         return discount = 2 ;
@@ -28,6 +36,15 @@ const baseAge = (discount) => {
     }
 };
 
+const displayProducts = () => {
+    
+    const listProductMap = listOfProduct.map((products) => {
+        return products
+    });
+
+    console.log(listProductMap)
+}
+
 
 
 
@@ -37,6 +54,16 @@ function computed(){
     const tax = 12 ; // fixed tax by 12%
     let discount;
 
+
     const customerName = document.getElementById("customerName");
+    const ul = document.getElementById("listOfProducts");
+    
+    listOfProduct.forEach((products) => {
+        const li = document.createElement("li") ;
+        li.textContent = products.item
+        ul.appendChild(li)
+    })
 
 }; 
+
+computed()
