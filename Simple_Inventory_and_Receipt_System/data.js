@@ -6,7 +6,7 @@ const listOfProduct = [
             {item: "Argentina beef loof 100g", price: 16.00},
             {item: "Lami beef loof big", price: 35.00},
             {item: "Lami beef loof 150g", price: 23.00},
-            {item: "Lami beef loof 100g", price: 18.00},
+            {item: "Lami beef loof 100g", price: 18.10},
         ], 
         tuna: [
             {item: "555 Tuna junior", price: 24.00},
@@ -19,3 +19,4 @@ const listOfProduct = [
 ];
 
 export default listOfProduct ;
+
