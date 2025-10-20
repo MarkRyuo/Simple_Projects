@@ -10,3 +10,5 @@ app.get('/', (request, response)=> {
 app.listen(port, (req, res) => {
     console.log(`Example app listening on port ${port}`)
 })
+
+// http://localhost:3000
