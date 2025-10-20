@@ -1,8 +1,8 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
+const express = require('express'); // Innitialize ng express
+const mongoose = require('mongoose'); // Innitialize ng mongoose
+const dotenv = require('dotenv'); // Initialize ng dotenv
 
-dotenv.config();
+dotenv.config(); // 
 
 const app = express();
 const port = 3000;
@@ -20,3 +20,8 @@ mongoose.connect(
 )
   .then(() => console.log('Connected to MongoDB!'))
   .catch(err => console.error('MongoDB connection error:', err));
+
+
+app.post("/api/products", (req, res) => {
+    
+})
