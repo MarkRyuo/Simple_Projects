@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aiden Nakamura",
+      "username": "aiden.codes",
+      "email": "aiden.nakamura@example.com",
+      "password": "9f4a2b7d!Aiden2025",
+      "age": 25,
+      "city": "Tokyo",
+      "role": "Frontend Developer",
+      "interests": ["React", "UX Design", "Anime"]
+    },
+    {
+      "id": 2,
+      "name": "Luna Martínez",
+      "username": "luna_ui",
+      "email": "luna.martinez@example.com",
+      "password": "Luna@Ux789",
+      "age": 27,
+      "city": "Madrid",
+      "role": "UI Designer",
+      "interests": ["Figma", "Typography", "Travel"]
+    },
+    {
+      "id": 3,
+      "name": "Ethan Zhang",
+      "username": "ez_dev",
+      "email": "ethan.zhang@example.com",
+      "password": "EthanZ#432",
+      "age": 30,
+      "city": "Vancouver",
+      "role": "Full Stack Engineer",
+      "interests": ["Node.js", "React", "Climbing"]
+    },
+    {
+      "id": 4,
+      "name": "Sofia Rossi",
+      "username": "sofia.codes",
+      "email": "sofia.rossi@example.com",
+      "password": "Sofi!1234",
+      "age": 22,
+      "city": "Milan",
+      "role": "Junior Frontend Developer",
+      "interests": ["CSS Art", "React Hooks", "Coffee"]
+    },
+    {
+      "id": 5,
+      "name": "Noah Patel",
+      "username": "noah.js",
+      "email": "noah.patel@example.com",
+      "password": "NoahP@2025",
+      "age": 29,
+      "city": "London",
+      "role": "JavaScript Developer",
+      "interests": ["APIs", "Gaming", "Music"]
+    },
+    {
+      "id": 6,
+      "name": "Maya Thompson",
+      "username": "maya_ui",
+      "email": "maya.thompson@example.com",
+      "password": "MayaT#UX55",
+      "age": 24,
+      "city": "Austin",
+      "role": "UI/UX Designer",
+      "interests": ["Design Systems", "Sketching", "Podcasts"]
+    },
+    {
+      "id": 7,
+      "name": "Ravi Singh",
+      "username": "ravi.codes",
+      "email": "ravi.singh@example.com",
+      "password": "Ravi@Next99",
+      "age": 31,
+      "city": "Bangalore",
+      "role": "React Developer",
+      "interests": ["Next.js", "Cricket", "Street Food"]
+    },
+    {
+      "id": 8,
+      "name": "Emma Laurent",
+      "username": "emma.design",
+      "email": "emma.laurent@example.com",
+      "password": "Emma!Paris24",
+      "age": 26,
+      "city": "Paris",
+      "role": "Product Designer",
+      "interests": ["Minimalism", "UI Animation", "Wine"]
+    },
+    {
+      "id": 9,
+      "name": "Caleb Johnson",
+      "username": "caleb.dev",
+      "email": "caleb.johnson@example.com",
+      "password": "CalebDev#NY",
+      "age": 28,
+      "city": "New York",
+      "role": "Frontend Engineer",
+      "interests": ["React Native", "Street Photography", "Jazz"]
+    },
+    {
+      "id": 10,
+      "name": "Haruka Mori",
+      "username": "haruka.js",
+      "email": "haruka.mori@example.com",
+      "password": "Haruka@2025",
+      "age": 23,
+      "city": "Osaka",
+      "role": "Frontend Developer",
+      "interests": ["Vue.js", "Tea", "K-Dramas"]
+    },
+    {
+      "id": 11,
+      "name": "Leo Fernandez",
+      "username": "leo_dev",
+      "email": "leo.fernandez@example.com",
+      "password": "LeoF#777",
+      "age": 33,
+      "city": "Buenos Aires",
+      "role": "Software Engineer",
+      "interests": ["TypeScript", "Soccer", "Asado"]
+    },
+    {
+      "id": 12,
+      "name": "Nora Kim",
+      "username": "nora.codes",
+      "email": "nora.kim@example.com",
+      "password": "NoraK!UX",
+      "age": 27,
+      "city": "Seoul",
+      "role": "React Developer",
+      "interests": ["UI Animations", "Coffee", "Indie Music"]
+    },
+    {
+      "id": 13,
+      "name": "Oliver Wright",
+      "username": "oliver.react",
+      "email": "oliver.wright@example.com",
+      "password": "Oli@ReactX",
+      "age": 35,
+      "city": "Sydney",
+      "role": "Tech Lead",
+      "interests": ["Architecture", "Mentorship", "Surfing"]
+    },
+    {
+      "id": 14,
+      "name": "Chloe Nguyen",
+      "username": "chloe.designs",
+      "email": "chloe.nguyen@example.com",
+      "password": "Chloe#2025",
+      "age": 21,
+      "city": "Ho Chi Minh City",
+      "role": "Junior Designer",
+      "interests": ["Color Theory", "Illustration", "Cats"]
+    },
+    {
+      "id": 15,
+      "name": "Jacob Wilson",
+      "username": "jacob_dev",
+      "email": "jacob.wilson@example.com",
+      "password": "Jacob@Front",
+      "age": 32,
+      "city": "Chicago",
+      "role": "Frontend Architect",
+      "interests": ["React", "Tailwind CSS", "Basketball"]
+    },
+    {
+      "id": 16,
+      "name": "Amara Ali",
+      "username": "amara.codes",
+      "email": "amara.ali@example.com",
+      "password": "Amara@JS",
+      "age": 24,
+      "city": "Dubai",
+      "role": "Frontend Developer",
+      "interests": ["Design Systems", "Fashion", "Coffee"]
+    },
+    {
+      "id": 17,
+      "name": "Lucas Meyer",
+      "username": "lucas.dev",
+      "email": "lucas.meyer@example.com",
+      "password": "Lucas#Next",
+      "age": 29,
+      "city": "Berlin",
+      "role": "Web Developer",
+      "interests": ["Next.js", "Cycling", "Tech Podcasts"]
+    },
+    {
+      "id": 18,
+      "name": "Ivy Carter",
+      "username": "ivy_designs",
+      "email": "ivy.carter@example.com",
+      "password": "Ivy!UX24",
+      "age": 22,
+      "city": "Toronto",
+      "role": "UX Designer",
+      "interests": ["Design Thinking", "Indie Games", "Poetry"]
+    },
+    {
+      "id": 19,
+      "name": "Mateo Rivera",
+      "username": "mateo.js",
+      "email": "mateo.rivera@example.com",
+      "password": "Mateo@Dev99",
+      "age": 28,
+      "city": "Mexico City",
+      "role": "Frontend Engineer",
+      "interests": ["React", "Street Art", "Tacos"]
+    },
+    {
+      "id": 20,
+      "name": "Zara Hassan",
+      "username": "zara.dev",
+      "email": "zara.hassan@example.com",
+      "password": "Zara#Front24",
+      "age": 26,
+      "city": "Kuala Lumpur",
+      "role": "Frontend Developer",
+      "interests": ["JavaScript", "Design", "Photography"]
+    }
+  ]
+}
