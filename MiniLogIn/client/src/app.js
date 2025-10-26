@@ -1,5 +1,6 @@
 import { checkInput } from "./utils/checkUser.utils.js";
 import { keyEnterUtils, btnClickUtils } from "./utils/button.utils.js";
+import apiClient from "./api/apiClient.api.js";
 
 // Create a main function for button login
 let attempt = 5 ; // global scope
@@ -7,15 +8,11 @@ let attempt = 5 ; // global scope
 
 async function getData() {
     try {
-        const response = await fetch("data.json", {
+        const response = await apiClient("../data.json", {
             method: "GET"
-        });
-
-        if(!response.ok){
-            console.log(`Cant fetch data ${response.status}`)
-        }
-
-        return response.json()
+        })
+        console.log(response)
+        return response
 
     } catch (error) {
         console.error(error.message);
